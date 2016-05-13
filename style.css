@@ -57,6 +57,15 @@ td, th{
     padding: 5px;
 }
 
+.information{
+    text-align: center;
+}
+
+.information ul{
+    padding: 0px;
+    list-style: none;
+}
+
 nav ul ul {
 	display: none;
 }
