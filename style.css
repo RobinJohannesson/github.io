@@ -2,24 +2,6 @@ body {
     margin: 0 auto;
 }
 
-@keyframes open_img {
-    from {
-        border-radius: 0%;
-    }
-    to {
-        border-radius: 50%;
-    }
-}
-
-.profil img {
-    height: auto;
-    width: 100%;
-    border-radius: 50%;
-    animation-name: open_img;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
-}
-
 h1 {
     color: #333333;
     padding: 10px 10px 10px 10px;
@@ -50,26 +32,28 @@ p {
 }
 
 .wrapper {
-    background-color: #F1F1F1;
     margin: 0 auto;
     max-width: 1000px;
     min-width: 300px;
     padding: 20px 20px 20px 20px;
 }
 
-table {
-    background-color: #FFFF99;
-    border: 2px solid #CCCCCC;
-    width: 300px;
+@keyframes open_img {
+    from {
+        border-radius: 0%;
+    }
+    to {
+        border-radius: 50%;
+    }
 }
 
-thead {
-    background-color: #FFFF33;
-}
-
-td,
-th {
-    padding: 5px;
+.profil img {
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+    animation-name: open_img;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
 .information {
