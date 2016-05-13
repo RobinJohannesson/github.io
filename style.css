@@ -2,9 +2,22 @@ body {
     margin: 0 auto;
 }
 
+@keyframes open_img {
+    from {
+        border-radius: 0%;
+    }
+    to {
+        border-radius: 50%;
+    }
+}
+
 .profil img {
     height: auto;
     width: 100%;
+    border-radius: 50%;
+    animation-name: open_img;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
 h1 {
