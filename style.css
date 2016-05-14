@@ -64,6 +64,55 @@ p {
 /*VERTICAL MENU*/
 nav{
   position:relative;
+  width:200px;
+}
+
+/* ALL UL */
+nav ul{
+  list-style: none;
+}
+/* ALL LI */
+nav li{
+  position:relative;
+}
+/* ALL A */
+nav a{
+  display:block;
+  color:#eee;
+  text-decoration:none;
+  padding:10px 15px;
+  background:#667;
+  transition:0.2s;
+}
+/* ALL A HOVER */
+nav li:hover > a{
+  background:#778;
+}
+
+/* INNER UL HIDE */
+nav ul ul{
+  position:absolute;
+  left:0%;
+  top:0;
+  width:100%;
+  visibility:hidden;
+  opacity:0;
+  transition: transform 0.2s;
+  transform: translateX(50px);
+}
+/* INNER UL SHOW */
+nav li:hover > ul{
+  left:100%;
+  visibility:visible;
+  opacity:1;
+  transform: translateX(0px);
+}
+
+@media only screen and (max-device-width: 480px) {
+
+/*VERTICAL MENU MOBILE*/
+nav{
+  position:relative;
   background:#667;
 }
 
@@ -102,5 +151,4 @@ nav li:hover > ul{
   transition: max-height 0.25s ease-in;
 }
 
-
-
+}
