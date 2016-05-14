@@ -9,13 +9,11 @@ h1 {
 
 h2 {
     color: #555555;
-    text-align: center;
 }
 
 p {
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
 .wrapper {
@@ -43,11 +41,6 @@ p {
     animation-timing-function: ease-out;
 }
 
-.information {
-    text-align: center;
-    color: #000;
-}
-
 .information a {
     color: #000;
 }
@@ -59,6 +52,15 @@ p {
 .information ul {
     padding: 0px;
     list-style: none;
+}
+
+.footer_info {
+    margin: 20px;
+    width: 280px;
+    height: 160px;
+    float: left;
+    border: 1px solid #000;
+    text-align: center;
 }
 
 .dropdown {
