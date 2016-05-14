@@ -8,47 +8,74 @@
     <meta http-equiv="refresh" content="600">
     <meta name="author" content="Robin Johannesson">
     <link rel="shortcut icon" type="image/jpeg" href="Robin.jpg">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
         <nav id="primary_nav_wrap">
-            <ul>
-                <li class="current-menu-item"><a href="#">Robin Johannesson</a></li>
-                <li><a href="http://goo.gl/8COCvN">Schema</a></li>
-                <li><a href="#">Webbutveckling</a>
-                    <ul>
-                        <li><a href="http://webshare.mah.se/af5118/tabeller%20och%20annat/tabeller.html">Tabeller</a></li>
-                        <li><a href="http://webshare.mah.se/af5118/inlamning_ROBINJ/index.html">Inlämning 1</a></li>
-                        <li><a href="http://webshare.mah.se/af5118/inlamning2/index.html">Inlamning 2</a></li>
-                        <li><a href="http://webshare.mah.se/af5118/Inlamning3/index.html">Inlamning 3</a></li>
-                        <li><a href="http://webshare.mah.se/af5118/workshop1/index.html">Workshop1</a></li>
-                        <li><a href="http://webshare.mah.se/af5118/laboration4/index.html">Laboration 4</a></li>
-                        <li><a href="http://webshare.mah.se/af5118/labb5/index.html">Laboration 5</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Programmering</a>
-                    <ul>
-                        <li><a href="programming/modul1.html">Modul 1</a></li>
-                        <li><a href="programming/modul2.html">Modul 2</a></li>
-                        <li><a href="programming/modul3.html">Modul 3</a></li>
-                        <li><a href="programming/modul4.html">Modul 4</a></li>
-                        <li><a href="programming/webben.html">Webben</a></li>
-                        <li><a href="programming/extrauppgift.html">Extrauppgift</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Lite allmänt skoj!☺</a>
-                    <ul>
-                        <li><a href="fun_things/animate_name/index.html">Animera namnet</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Bokmärken</a>
-                    <ul>
-                        <li><a href="bookmark/Recommended/recommended.html">Rekommenderade</a></li>
-                    </ul>
-                </li>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
+                    <span class="caret">
+                    </span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="http://goo.gl/8COCvN">Schema</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Webbutveckling
+                    <span class="caret">
+                    </span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="http://webshare.mah.se/af5118/tabeller%20och%20annat/tabeller.html">Tabeller</a></li>
+                    <li><a href="http://webshare.mah.se/af5118/inlamning_ROBINJ/index.html">Inlämning 1</a></li>
+                    <li><a href="http://webshare.mah.se/af5118/inlamning2/index.html">Inlamning 2</a></li>
+                    <li><a href="http://webshare.mah.se/af5118/Inlamning3/index.html">Inlamning 3</a></li>
+                    <li><a href="http://webshare.mah.se/af5118/workshop1/index.html">Workshop1</a></li>
+                    <li><a href="http://webshare.mah.se/af5118/laboration4/index.html">Laboration 4</a></li>
+                    <li><a href="http://webshare.mah.se/af5118/labb5/index.html">Laboration 5</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Programmering
+                    <span class="caret">
+                    </span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="programming/modul1.html">Modul 1</a></li>
+                    <li><a href="programming/modul2.html">Modul 2</a></li>
+                    <li><a href="programming/modul3.html">Modul 3</a></li>
+                    <li><a href="programming/modul4.html">Modul 4</a></li>
+                    <li><a href="programming/webben.html">Webben</a></li>
+                    <li><a href="programming/extrauppgift.html">Extrauppgift</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Lite allmänt skoj
+                    <span class="caret">
+                    </span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="fun_things/animate_name/index.html">Animera namnet</a></li>
+                </ul>
 
-            </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Bokmärken
+                    <span class="caret">
+                    </span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="bookmark/Recommended/recommended.html">Rekommenderade</a></li>
+                </ul>
+
+            </div>
         </nav>
         <!--<a href="Robin.jpg" download></a>Nedladdning av bild-->
         <div class="profil">

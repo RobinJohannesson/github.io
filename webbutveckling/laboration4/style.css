@@ -1,0 +1,53 @@
+#message{
+    width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#knappar{
+    margin: 0 auto;
+    width: 400px;
+}
+
+button{
+    color: #555555;
+    background-color: #cdcdcd;
+    width: 400px;
+    height: 50px;
+}
+
+.red{
+    background-color: #cd5555;
+}
+
+.red > h1{
+    color: #00ffff;
+}
+
+.red > p{
+    color: #a40000;
+}
+
+.green{
+    background-color: #55cd55;
+}
+
+.green > h1{
+    color: #ff00ff;
+}
+
+.green > p{    
+    color: #00a400;
+}
+
+.blue{
+    background-color: #5555cd;
+}
+
+.blue > h1{
+    color: #ffff00;
+}
+
+.blue > p{
+    color: #0000a4;
+}
