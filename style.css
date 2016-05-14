@@ -63,7 +63,7 @@ p {
 
 /*VERTICAL MENU*/
 nav{
-  position:relative;
+  position:absolute;
   width:200px;
 }
 
