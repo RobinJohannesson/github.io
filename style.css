@@ -108,7 +108,7 @@ nav li:hover > ul{
   transform: translateX(0px);
 }
 
-@media only screen and (max-device-width: 480px) {
+@media (max-device-width: 1280px) {
 
 /*VERTICAL MENU MOBILE*/
 nav{
