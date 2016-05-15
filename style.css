@@ -65,3 +65,8 @@ p {
 .dropdown {
     display: inline-block;
 }
+
+.social_button {
+    float: left;
+    margin: 30px 30px 0px 0px;
+}
