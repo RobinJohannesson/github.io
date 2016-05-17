@@ -136,22 +136,23 @@ table {
 
 body {
     margin: 0 auto;
-    background-color: #111;
+    background-color: #fff;
 }
 
 h2 {
-    color: #fff;
+    color: #000;
     font-size: 26px;
     font-family: sans-serif;
+    opacity: .5;
 }
 
 p {
-    color: #fff;
+    color: #000;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-    color: #fff;
+    color: #000;
 }
 
 .wrapper {
@@ -182,7 +183,7 @@ a {
     position: absolute;
     -webkit-clip-path: circle(34.0% at 51% 46%);
     clip-path: circle(34.0% at 51% 46%);
-    animation: img_breath 2s infinite;
+    animation: img_breath 4s infinite;
     animation-timing-function: linear;
 }
 
