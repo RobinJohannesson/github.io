@@ -212,10 +212,50 @@ a {
     text-align: center;
 }
 
-/* Dropdown Button */
+@keyframes flying_text_left {
+    from {
+        margin-left: -200px;
+    }
+    to {
+        margin: 20px;
+    }
+}
+
+@keyframes flying_text_bottom {
+    from {
+        margin-top: 200px;
+    }
+    to {
+        margin: 20px;
+    }
+}
+
+@keyframes flying_text_right {
+    from {
+        margin-right: -200px;
+    }
+    to {
+        margin: 20px;
+    }
+}
+
+#footer_first{
+    animation-name: flying_text_left;
+    animation-duration: 2s;
+}
+
+#footer_second{
+    animation-name: flying_text_bottom;
+    animation-duration: 2s;
+}
+
+#footer_third{
+    animation-name: flying_text_right;
+    animation-duration: 2s;
+}
 
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #888;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -223,24 +263,15 @@ a {
     cursor: pointer;
 }
 
-
-/* Dropdown button on hover & focus */
-
 .dropbtn:hover,
 .dropbtn:focus {
-    background-color: #3e8e41;
+    background-color: #555;
 }
-
-
-/* The container <div> - needed to position the dropdown content */
 
 .dropdown {
     position: fixed;
     display: inline-block;
 }
-
-
-/* Dropdown Content (Hidden by Default) */
 
 .dropdown-content {
     display: none;
@@ -250,9 +281,6 @@ a {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-
-/* Links inside the dropdown */
-
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -260,15 +288,9 @@ a {
     display: block;
 }
 
-
-/* Change color of dropdown links on hover */
-
 .dropdown-content a:hover {
     background-color: #f1f1f1
 }
-
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 
 .show {
     display: block;
@@ -280,7 +302,25 @@ a {
 }
 
 @media only screen and (max-width: 1000px) {
+    .profil{
+        width: 640px;
+        height: 480px;
+        margin: 0;
+    }
+    
     .profil img{
-        width: 100%;
+        width: 640px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .profil{
+        width: 300px;
+        height: 225px;
+        marign: 0;
+    }
+    
+    .profil img{
+        width: 300px;
     }
 }
