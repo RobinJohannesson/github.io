@@ -190,9 +190,18 @@ a {
     transition-property: all;
 }
 
+@keyframes img_breath {
+    0% {-webkit-clip-path: circle(34.0% at 51% 46%);
+    clip-path: circle(34.0% at 51% 46%);}
+    50% {-webkit-clip-path: circle(20.0% at 51% 46%);
+    clip-path: circle(20.0% at 51% 46%);}
+    100% {-webkit-clip-path: circle(34.0% at 51% 46%);
+    clip-path: circle(34.0% at 51% 46%);}
+}
+
 .profil img:hover {
-    -webkit-clip-path: circle(60% at 50% 50%);
-    clip-path: circle(60% at 50% 50%);
+    animation: img_breath 5s infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .information a:hover {
@@ -204,23 +213,6 @@ a {
     list-style: none;
 }
 
-.footer_info {
-    margin: 20px;
-    width: 280px;
-    height: auto;
-    float: left;
-    text-align: center;
-}
-
-@keyframes flying_text_left {
-    from {
-        margin-left: -200px;
-    }
-    to {
-        margin: 20px;
-    }
-}
-
 @keyframes flying_text_bottom {
     from {
         margin-top: 200px;
@@ -230,27 +222,13 @@ a {
     }
 }
 
-@keyframes flying_text_right {
-    from {
-        margin-right: -200px;
-    }
-    to {
-        margin: 20px;
-    }
-}
-
-#footer_first{
-    animation-name: flying_text_left;
-    animation-duration: 2s;
-}
-
-#footer_second{
+.footer_info {
+    margin: 20px;
+    width: 280px;
+    height: auto;
+    float: left;
+    text-align: center;
     animation-name: flying_text_bottom;
-    animation-duration: 2s;
-}
-
-#footer_third{
-    animation-name: flying_text_right;
     animation-duration: 2s;
 }
 
