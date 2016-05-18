@@ -165,8 +165,8 @@ a {
 @keyframes img_breath {
     0% {-webkit-clip-path: circle(34.0% at 51% 46%);
     clip-path: circle(34.0% at 51% 46%);}
-    50% {-webkit-clip-path: circle(25.0% at 51% 46%);
-    clip-path: circle(25.0% at 51% 46%);}
+    50% {-webkit-clip-path: circle(30.0% at 51% 46%);
+    clip-path: circle(30.0% at 51% 46%);}
     100% {-webkit-clip-path: circle(34.0% at 51% 46%);
     clip-path: circle(34.0% at 51% 46%);}
 }
